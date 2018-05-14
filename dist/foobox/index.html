@@ -1,0 +1,9 @@
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'))
+}
+</script>
+<link href="manifest.json" rel="manifest" />
+<link href="../index.css" rel="stylesheet" />
+<div id="app"></div>
+<script src="../main.js"></script>
