@@ -3,7 +3,7 @@
   "short_name": "P",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
-  "display": "fullscreen",
+  "display": "standalone",
   "Scope": "/foobox",
   "start_url": "/foobox",
   "icons": [
